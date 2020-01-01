@@ -22,4 +22,8 @@
       - brew cask install chromedriver  
    - インストール確認
       - brew cask list
-
+   - APIの内容  
+     API化されているのでJSONのようなフォーマットでリクエストすればいい  
+     【引数の参考先】  
+     https://boomin.yokohama/archives/1328  
+     https://github.com/hardikvasa/google-images-download
