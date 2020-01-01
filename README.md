@@ -22,6 +22,9 @@
       - brew cask install chromedriver  
    - インストール確認
       - brew cask list
+   - エラー内容
+     - import sslでエラーが発生  
+     pyenvを削除（元々削除したかった）。pythonの入れ直し。env環境の再作成をすると解消。
    - APIの内容  
      API化されているのでJSONのようなフォーマットでリクエストすればいい  
      【引数の参考先】  
