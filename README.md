@@ -36,7 +36,17 @@
      - Googleのupdateにより本家が機能しなくなった  
      ある方が修正してくれいているので「google_images_download.py」を入れ替える
      https://github.com/voins/google-images-download/tree/2cd68173c961324a2c41c61e8b6f40a49663ce60
-       - 400枚までになっている
-       - keywordsが効いていない
-     - Bingを作成してくれている人もいる  
+       - 入れ替えただけではダメ
+         - 400枚までになっている
+         - keywordsが効いていない  
+       - chromdriverをpythonと同一フォルダに置き下記のように直接実行するとpythonと同一フォルダに検索キーワードフォルダが作成されて格納される。
+       python google_images_download.py -ri -cd "chromedriver" -l 1000  -k "ナンバープレート"  
+       ※何をやっても400枚までになる
+       - オプションは下記
+       https://qiita.com/tomokin966/items/fdf14f4bfaa8bf97eed6
+     - 派生してBingを作成してくれている人もいる  
      https://github.com/ultralytics/google-images-download
+  - 別ツール
+    - Google, Bing, Baidu. 谷歌、百度からのダウンロード  
+    https://github.com/sczhengyabin/Image-Downloader
+
