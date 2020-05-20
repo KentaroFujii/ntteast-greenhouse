@@ -33,8 +33,10 @@
    - その後エラー
      - chromeとのバージョン違いで落ちる  
      Looks like we cannot locate the path the 'chromedriver' (use the '--chromedriver' argument to specify the path to the executable.) or google chrome browser is not installed on your machine (exception: Message: session not created: This version of ChromeDriver only supports Chrome version 83
-     - Googleのupdateにより本家が機能しなくなった
+     - Googleのupdateにより本家が機能しなくなった  
      ある方が修正してくれいているので「google_images_download.py」を入れ替える
      https://github.com/voins/google-images-download/tree/2cd68173c961324a2c41c61e8b6f40a49663ce60
-     - Bingを作成してくれている人もいる
+       - 400枚までになっている
+       - keywordsが効いていない
+     - Bingを作成してくれている人もいる  
      https://github.com/ultralytics/google-images-download
