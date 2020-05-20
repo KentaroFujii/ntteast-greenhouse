@@ -30,3 +30,6 @@
      【引数の参考先】  
      https://boomin.yokohama/archives/1328  
      https://github.com/hardikvasa/google-images-download
+   - その後エラー
+     - chromeとのバージョン違いで落ちる  
+     Looks like we cannot locate the path the 'chromedriver' (use the '--chromedriver' argument to specify the path to the executable.) or google chrome browser is not installed on your machine (exception: Message: session not created: This version of ChromeDriver only supports Chrome version 83
