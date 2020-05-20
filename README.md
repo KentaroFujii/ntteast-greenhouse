@@ -46,6 +46,10 @@
        https://qiita.com/tomokin966/items/fdf14f4bfaa8bf97eed6
      - 派生してBingを作成してくれている人もいる  
      https://github.com/ultralytics/google-images-download
+     ```
+     こんなコマンドで実行する
+     python bing_scraper.py --search '車両ナンバー' --limit 10000 --f png --type 'photo' -nn -ri -st 30 --download --chromedriver /usr/local/Caskroom/chromedriver/83.0.4103.39/chromedriver
+     ```
   - 別ツール
     - Google, Bing, Baidu. 谷歌、百度からのダウンロード  
     https://github.com/sczhengyabin/Image-Downloader
